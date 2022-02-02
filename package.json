@@ -1,0 +1,16 @@
+{
+  "name": "zero-to-functional-gql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Odee <odjhey@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@envelop/core": "^2.0.0",
+    "fastify": "^3.27.0",
+    "graphql": "^16.3.0",
+    "graphql-helix": "^1.11.0",
+    "graphql-tag": "^2.12.6",
+    "graphql-tools": "^8.2.0"
+  }
+}
