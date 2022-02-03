@@ -14,6 +14,18 @@ export const typedefs = gql`
     id: ID!
     name: String!
     trait: Trait!
+    quotes(limit: Int): [Quote!]!
+  }
+
+  type Quote {
+    id: ID!
+    quote: String!
+    author: Author!
+  }
+
+  type Author {
+    id: ID!
+    name: String!
   }
 
   type Query {
