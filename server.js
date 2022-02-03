@@ -31,6 +31,14 @@ const getEnveloped = envelop({
                         name: "john author",
                       },
                     },
+                    {
+                      id: 2,
+                      quote: "now way",
+                      author: {
+                        id: 1,
+                        name: "john author",
+                      },
+                    },
                   ],
                 },
               ];
